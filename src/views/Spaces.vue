@@ -46,7 +46,7 @@ export default class Spaces extends Vue {
   private options: string[] = [];
 
   private mounted() {
-    axios.get('my-json-server.typicode.com/BikkuMyy/SSF/spaces').then(response => {
+    axios.get('https://my-json-server.typicode.com/bikkumyy/SSF/spaces/').then(response => {
       response.data.forEach(element => {
         const space = element as Space;
         this.spaces.push(space);
