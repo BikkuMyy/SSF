@@ -14,10 +14,10 @@
 </style>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
-import StudySpace from '@/components/StudySpace.vue'; // @ is an alias to /src
-import Toolbar from '@/components/Toolbar.vue';
-import axios from 'axios';
+import { Component, Vue } from "vue-property-decorator";
+import StudySpace from "@/components/StudySpace.vue"; // @ is an alias to /src
+import Toolbar from "@/components/Toolbar.vue";
+import axios from "axios";
 
 interface Space {
   id: number;
@@ -35,9 +35,8 @@ interface Space {
 @Component({
   components: {
     StudySpace,
-    Toolbar,
-  },
-
+    Toolbar
+  }
 })
 export default class Spaces extends Vue {
   private spaces: Space[] = [];
@@ -46,13 +45,15 @@ export default class Spaces extends Vue {
   private options: string[] = [];
 
   private mounted() {
-    axios.get('https://my-json-server.typicode.com/bikkumyy/SSF/spaces/').then(response => {
-      response.data.forEach(element => {
-        const space = element as Space;
-        this.spaces.push(space);
-        this.addSpaceToOptions(space);
+    axios
+      .get("https://my-json-server.typicode.com/bikkumyy/SSF/spaces/")
+      .then(response => {
+        response.data.forEach(element => {
+          const space = element as Space;
+          this.spaces.push(space);
+          this.addSpaceToOptions(space);
+        });
       });
-    });
     this.updateSpaceSelection();
   }
 
@@ -76,8 +77,10 @@ export default class Spaces extends Vue {
             filtered.push(space);
             continue;
           }
-          if (space.tags.includes(filter)) {
-            filtered.push(space);
+          if (space.tags) {
+            if (space.tags.includes(filter)) {
+              filtered.push(space);
+            }
           }
         }
         toFilter = filtered;

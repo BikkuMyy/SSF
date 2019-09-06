@@ -328,16 +328,20 @@
       ]
     },
     {
-      "id": 27,
-      "name": "Ergonomical desk",
+      "id": 33,
+      "name": "Hiekkalaatikko",
       "building": "Physicum",
-      "location2": "Library",
-      "floor": "2",
-      "open": "8-20",
-      "people": "1",
-      "info": "These 4 standing desks are situated in the library 2nd floor.",
-      "reservable": false,   
-      "photo":"standing_library.png"
+      "location2": "Near the roof",
+      "floor": "3",
+      "open": "8-18",
+      "people": "15",
+      "info": "Highest study place in Kumpula. ",
+      "reservable": false,
+      "photo": "",
+      "tags": [
+        "view",
+        "quirky"
+      ]
     },
     {
       "id": 1,
