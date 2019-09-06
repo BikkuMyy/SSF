@@ -297,21 +297,6 @@
       ]
     },
     {
-      "id": 21,
-      "name": "Open group work space",
-      "building": "Physicum",
-      "floor": "1",
-      "open": "8-20",
-      "people": "20",
-      "info": "This is an open group work space in the Libary 1st floor, with several small tables. Talking is allowed!",
-      "reservable": false,
-      "location2": "Library",
-      "photo": "open_group.png",
-      "tags": [
-        "groupwork"
-      ]
-    },
-    {
       "id": 22,
       "name": "Egg chairs",
       "building": "Physicum",
@@ -326,25 +311,6 @@
         "quirky",
         "natural light",
         "view"
-      ]
-    },
-    {
-      "id": 23,
-      "name": "Orange sofa loveliness",
-      "building": "Physicum",
-      "location2": "Library",
-      "floor": "1",
-      "open": "8-20",
-      "people": "12",
-      "info": "These orange sofas and chairs have nice soft padding, so you can sit as long as you want. There are some low coffee tables for your laptop, or, coffee",
-      "reservable": false,
-      "photo":"orange.png",
-      "tags": [
-        "sofa",
-        "armchair",
-        "comfortable",
-        "lounge",
-        "quiet"
       ]
     },
     {
@@ -432,54 +398,6 @@
       ]
     },
     {
-      "id": 41,
-      "name": "Library info computers",
-      "building": "Physicum",
-      "floor": "1",
-      "open": "8-18",
-      "people": "1",
-      "info": "In the library lobby you can find 4 computers, that you can use with your uni credentials. Some of them you can use standing, some have chairs. Not suitable if you would like to concentrate.",
-      "reservable": false,
-      "location2": "Library",
-      "photo": "info_computers.png",
-      "tags": [
-        "computer",
-        "standing"
-      ]
-    },
-    {
-      "id": 45,
-      "name": "Library solo sofas",
-      "building": "Physicum",
-      "floor": "2",
-      "open": "8-18",
-      "people": "1",
-      "info": "These 6 solo sofas or armchairs in library 2nd floor give you some comfortable privacy.",
-      "reservable": false,
-      "location2": "Library",
-      "photo": "solo_sofas.png",
-      "tags": [
-        "private",
-        "natural light"
-      ]
-    },
-    {
-      "id": 46,
-      "name": "High desk 1",
-      "building": "Physicum",
-      "floor": "2",
-      "open": "8-18",
-      "people": "8",
-      "info": "This a big and high table with some bar chairs on library 2nd floor. Very uncomfortable to work for a long time.",
-      "reservable": false,
-      "location2": "Library",
-      "photo": "high1.png",
-      "tags": [
-        "outlet",
-        "natural light"
-      ]
-    },
-    {
       "id": 47,
       "name": "Reading desks",
       "building": "Physicum",
@@ -511,22 +429,6 @@
         "outlet",
         "natural light",
         "computer"
-      ]
-    },
-    {
-      "id": 49,
-      "name": "High desk 2",
-      "building": "Physicum",
-      "floor": "2",
-      "open": "8-18",
-      "people": "4",
-      "info": "This a big and high table with some bar chairs on library 2nd floor. Very uncomfortable to work for a long time but close to the restrooms.",
-      "reservable": false,
-      "location2": "Library",
-      "photo": "high2.png",
-      "tags": [
-        "outlet",
-        "restroom"
       ]
     },
     {
@@ -563,39 +465,6 @@
       ]
     },
     {
-      "id": 38,
-      "name": "Connecting corridor",
-      "building": "Exactum",
-      "location2": "Physicum",
-      "floor": "1",
-      "open": "8-18",
-      "people": "10",
-      "info": "The corridor connecting Exactum and Physicum. Plants and natural light, wooden benches.",
-      "reservable": false,
-      "photo": "corridor.png",
-      "tags": [
-        "bench",
-        "natural light"
-      ]
-    },
-    {
-      "id": 62,
-      "name": "Limes (office)",
-      "building": "Exactum",
-      "floor": "1",
-      "open": "2 times/week",
-      "people": "15",
-      "info": "The office of Limes student organization, open approximately twice a week.",
-      "reservable": false,
-      "location2": "C",
-      "photo": "",
-      "tags": [
-        "C132",
-        "student organization",
-        "coffee"
-      ]
-    },
-    {
       "id": 63,
       "name": "Exactum lobby",
       "building": "Exactum",
@@ -624,101 +493,6 @@
       "tags": [
         "natural light",
         "view"
-      ]
-    },
-    {
-      "id": 29,
-      "name": "Exactum ground floor B",
-      "building": "Exactum",
-      "location2": "",
-      "floor": "K",
-      "open": "8-18",
-      "people": "30",
-      "info": "During lunch time 11-14 the corridor is reserved for eating, otherwise you can use the area for studying (if you don't mind today's menu sticking into your notes or laptop).",
-      "reservable": false,
-      "photo": "unicafe_side.png",
-      "tags": [
-        "groupwork",
-        "natural light",
-        "restroom",
-        "unicafe",
-        "locker"
-      ]
-    },
-    {
-      "id": 30,
-      "name": "Exactum ground floor C",
-      "building": "Exactum",
-      "location2": "",
-      "floor": "K",
-      "open": "8-18",
-      "people": "30",
-      "info": "During lunch time 11-14 the corridor gets busy, otherwise you can use the area for studying.",
-      "reservable": false,
-      "photo": "gurula_side.png",
-      "tags": [
-        "groupwork",
-        "natural light",
-        "computer science",
-        "statistics",
-        "copying",
-        "restroom",
-        "locker",
-        "DK115"
-      ]
-    },
-    {
-      "id": 39,
-      "name": "Survomo",
-      "building": "Exactum",
-      "location2": "",
-      "floor": "K",
-      "open": "8-18",
-      "people": "10",
-      "info": "Statistics students dwell here, in the home of the Moodi ry student organization",
-      "reservable": false,
-      "photo": "survomo.png",
-      "tags": [
-        "statistics",
-        "sofa",
-        "student organization",
-        "coffee"
-      ]
-    },
-    {
-      "id": 42,
-      "name": "Random Forest study room",
-      "building": "Exactum",
-      "floor": "K",
-      "open": "8-18",
-      "people": "15",
-      "info": "A roon reserved for Data Science students, both for group working and a place to concentrate.",
-      "reservable": false,
-      "location2": "",
-      "photo": "random_forest.png",
-      "tags": [
-        "groupwork",
-        "private",
-        "CK110",
-        "computer science",
-        "data science"
-      ]
-    },
-    {
-      "id": 31,
-      "name": "Think Company Kumpula",
-      "building": "Exactum",
-      "location2": "",
-      "floor": "K",
-      "open": "8-18",
-      "people": "10",
-      "info": "Think Company Kumpula headquarters.",
-      "reservable": false,
-      "photo": "think.png",
-      "tags": [
-        "pöhinä",
-        "coffee",
-        "DK116"
       ]
     },
     {
@@ -762,42 +536,6 @@
       ]
     },
     {
-      "id": 67,
-      "name": "Haxxo",
-      "building": "Exactum",
-      "location2": "",
-      "floor": "K",
-      "open": "8-18",
-      "people": "15",
-      "info": "Computer room with hacker vibes (?).",
-      "reservable": false,
-      "photo": "haxxor.png",
-      "tags": [
-        "computer science",
-        "computer",
-        "groupwork",
-        "24h",
-        "DK108"
-      ]
-    },
-    {
-      "id": 35,
-      "name": "Apple corner",
-      "building": "Exactum",
-      "location2": "A",
-      "floor": "2",
-      "open": "8-18",
-      "people": "8",
-      "info": "Near the stair case on 2nd floor you can find some Apple computers and sofas.",
-      "reservable": false,
-      "photo": "apple.png",
-      "tags": [
-        "apple",
-        "computer",
-        "comfortable"
-      ]
-    },
-    {
       "id": 34,
       "name": "Massage chair",
       "building": "Exactum",
@@ -830,27 +568,6 @@
         "B221",
         "computer",
         "computer science"
-      ]
-    },
-    {
-      "id": 37,
-      "name": "Exactum 2nd floor B",
-      "building": "Exactum",
-      "location2": "B",
-      "floor": "2",
-      "open": "8-18",
-      "people": "20",
-      "info": "Some sofas, exercise balls, the ordinary lounge like things",
-      "reservable": false,
-      "photo": "exa2b.png",
-      "tags": [
-        "computer",
-        "computer science",
-        "sofa",
-        "exercise ball",
-        "restroom",
-        "chalk board",
-        "desk"
       ]
     },
     {
@@ -893,27 +610,6 @@
       ]
     },
     {
-      "id": 64,
-      "name": "Exactum 2nd floor C",
-      "building": "Exactum",
-      "location2": "C",
-      "floor": "2",
-      "open": "8-18",
-      "people": "20",
-      "info": "Some sofas, exercise balls, the ordinary lounge like things",
-      "reservable": false,
-      "photo": "exa2c.png",
-      "tags": [
-        "apple",
-        "computer",
-        "computer science",
-        "exercise ball",
-        "restroom",
-        "chalk board",
-        "desk"
-      ]
-    },
-    {
       "id": 65,
       "name": "Ratkomo",
       "building": "Exactum",
@@ -929,41 +625,6 @@
         "mathematics",
         "help",
         "desk"
-      ]
-    },
-    {
-      "id": 66,
-      "name": "Chess sofa corner",
-      "building": "Exactum",
-      "location2": "A",
-      "floor": "3",
-      "open": "8-18",
-      "people": "20",
-      "info": "A sofa corner in the mathematics hallway, now with chess.",
-      "reservable": false,
-      "photo": "chess.png",
-      "tags": [
-        "sofa",
-        "chess"
-      ]
-    },
-    {
-      "id": 32,
-      "name": "4th floor green sofa corner",
-      "building": "Exactum",
-      "location2": "C",
-      "floor": "4",
-      "open": "8-18",
-      "people": "10",
-      "info": "You can feel the vibrations being so close to the seismology department. It's an ordinary computer and sofa corner though, not an earthquake simulator.",
-      "reservable": false,
-      "photo": "4floorC.png",
-      "tags": [
-        "exercise ball",
-        "restroom",
-        "sofa",
-        "computer",
-        "green"
       ]
     },
     {
@@ -1022,25 +683,6 @@
       ]
     },
     {
-      "id": 53,
-      "name": "Sohvat",
-      "building": "Physicum",
-      "floor": "1",
-      "open": "8-18",
-      "people": "10",
-      "info": "Here you can find geography students hanging around. The call the place 'The Sofas', because it has sofas",
-      "reservable": false,
-      "location2": "Valopiha",
-      "photo": "the_sofas.png",
-      "tags": [
-        "sofa",
-        "natural light",
-        "geography",
-        "coffee",
-        "mao"
-      ]
-    },
-    {
       "id": 54,
       "name": "Suppa",
       "building": "Physicum",
@@ -1056,40 +698,6 @@
         "geography",
         "student organization",
         "D110"
-      ]
-    },
-    {
-      "id": 55,
-      "name": "Rockmap of Finland",
-      "building": "Physicum",
-      "floor": "1",
-      "open": "8-18",
-      "people": "1",
-      "info": "Not the rockmap of Finland you thought it was.",
-      "reservable": false,
-      "location2": "Kivipiha",
-      "photo": "rockmap.png",
-      "tags": [
-        "geography"
-      ]
-    },
-    {
-      "id": 56,
-      "name": "GIS-labs",
-      "building": "Physicum",
-      "floor": "1",
-      "open": "8-18",
-      "people": "20",
-      "info": "These two computer classrooms A113 and A114 have some computers also with double displays. Heavily used by geography students.",
-      "reservable": false,
-      "location2": "Kivipiha",
-      "photo": "",
-      "tags": [
-        "geography",
-        "A114",
-        "A113",
-        "silent",
-        "computer"
       ]
     },
     {
